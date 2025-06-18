@@ -1,2 +1,2 @@
 ### CSS
---  Learning CSS Daily until completed by building projects and Tasks
+  Learning CSS Daily until completed by building projects and Tasks
