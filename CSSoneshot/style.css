@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}
+#box{
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+#box2{width: 135px;
+    height: 150px;
+    background-color: yellow;
+
+}
+#box3{width: 100px;
+    height: 100px;
+    background-color: green;
+    
+}
+/* #main{
+    width: 100%;
+    height: 100%;
+    /* padding:20px; */
+    /* background-image: url(https://images.unsplash.com/photo-1749802449762-5e428ccf9a45?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    /* background-size:cover;
+    background-position: center; */
+/* }
+*/ 
+/* position relative */
+/* #box{
+    position: relative;
+    width:300px;
+    height: 300px;
+    background-color: red;
+}
+#chotha{
+    left:40%;
+    position: absolute;
+    width:100px;
+    height:100px;
+    background-color: yellow;
+
+} */
+/* position absolute make new plane  with position top and bottom doen't work*/
+/* #car1{
+    position: absolute;
+    top:20%;
+    left:40%;
+    width:110px;
+    height: 120px;
+    background-color: brown;
+}
+#car2{
+    position: absolute;
+    top:30%;
+    left: 35%;
+    width:110px;
+    height: 200px;
+    background-color: blueviolet;
+}
+#car3{
+    width: 130px;
+    height: 80px;
+    background-color: blue;
+} */
