@@ -1,0 +1,29 @@
+html,body{
+    margin: 0;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    width: 800px;
+    height: 100px;
+    background-color: #ececd0;  
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.container:nth-child(odd) .box:nth-child(even){
+    background: #739552;
+}
+.container:nth-child(even) .box:nth-child(odd){
+    background: #739552;
+}
+.container .box p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+
+
