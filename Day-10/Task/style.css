@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.intro-section {
+    background-color: #f4f4f4;
+    height: 300px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-section {
+    background-color: #fff;
+    min-height: 500px; /* Ensure enough content to scroll */
+}
+
+.footer-section {
+    background-color: #333;
+    color: white;
+}
+
+/* --- Parallax Specific Styles --- */
+.parallax-section {
+    position: relative; /* Crucial for background-attachment: fixed */
+    height: 100%; 
+    width: 100%;/* Set a fixed height for your parallax section */
+    overflow: hidden; /* Important for some browser quirks with fixed backgrounds */
+
+    /* Basic background properties */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+
+    /* The key to parallax! */
+    background-attachment: fixed;
+}
+
+/* Specific images for each parallax section */
+.parallax-one {
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/3840x2160-Images-Free-Download.jpg'); /* Replace with your image path */
+    /* Example using a real image for better effect:
+       background-image: url('your-forest-image.jpg'); */
+}
+
+.parallax-two {
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/3840x2160-Images-Free-Download.jpg'); /* Replace with your image path */
+    /* Example using a real image for better effect:
+       background-image: url('your-mountain-image.jpg'); */
+}
+
+
+.section-content {
+    position: relative; /* Make content stay on top of the fixed background */
+    z-index: 1; /* Ensure content is above the background */
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay for text readability */
+    color: white;
+    padding: 40px;
+    margin: 50px auto; /* Center content horizontally */
+    max-width: 800px;
+    border-radius: 8px;
+}

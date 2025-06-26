@@ -1,0 +1,31 @@
+html,body{
+    margin: 3em;
+    padding: 0px;
+}
+.big-container{
+    position: relative;
+    top:35px;
+    left: 75px;
+    background-color: white;
+    z-index: 1;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    text-align: center;
+}
+.circle{
+    position: relative;
+    top:15px;
+    left: 10px;
+    
+    background: red;
+    height: 50px;
+    width: 55px;
+    border-radius: 50%;
+}
+.rectangle{
+    /* position: relative; */
+    height: 150px;
+    width: 250px;
+    background: green;
+}
