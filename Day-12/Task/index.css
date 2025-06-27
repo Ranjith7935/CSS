@@ -1,0 +1,60 @@
+body {
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+        background-color: rgb(212, 29, 206);
+        margin: 0;
+    }
+
+    
+    .waveform {
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        height: 150px; 
+        gap: 5px; 
+        background-color: #ffffff;
+        padding: 30px 40px;
+        border-radius: 10px;
+       
+    }
+
+    
+    .waveform .bar {
+        display: block;
+        width: 4px;
+        background-color: black;
+        border-radius: 5px; 
+        animation: wave 1.2ms infinite ease-in-out alternate;
+    }
+
+   
+    @keyframes wave {
+        0% {
+            transform: scaleY(0.1);
+        }
+        100% {
+            transform: scaleY(1);
+        }
+    }
+
+   
+    .waveform .bar:nth-child(1)  { height: 35%; animation-delay: 0.1s; }
+    .waveform .bar:nth-child(2)  { height: 60%; animation-delay: 0.2s; }
+    .waveform .bar:nth-child(3)  { height: 25%; animation-delay: 0.3s; }
+    .waveform .bar:nth-child(4)  { height: 75%; animation-delay: 0.4s; }
+    .waveform .bar:nth-child(5)  { height: 45%; animation-delay: 0.5s; }
+    .waveform .bar:nth-child(6)  { height: 20%; animation-delay: 0.6s; }
+    .waveform .bar:nth-child(7)  { height: 65%; animation-delay: 0.7s; }
+    .waveform .bar:nth-child(8)  { height: 40%; animation-delay: 0.8s; }
+    .waveform .bar:nth-child(9)  { height: 25%; animation-delay: 0.9s; }
+    .waveform .bar:nth-child(10) { height: 50%; animation-delay: 1.0s; }
+    .waveform .bar:nth-child(11) { height: 70%; animation-delay: 0.15s; }
+    .waveform .bar:nth-child(12) { height: 30%; animation-delay: 0.25s; }
+    .waveform .bar:nth-child(13) { height: 55%; animation-delay: 0.35s; }
+    .waveform .bar:nth-child(14) { height: 20%; animation-delay: 0.45s; }
+    .waveform .bar:nth-child(15) { height: 45%; animation-delay: 0.55s; }
+    .waveform .bar:nth-child(16) { height: 60%; animation-delay: 0.65s; }
+    .waveform .bar:nth-child(17) { height: 80%; animation-delay: 0.75s; }
+    .waveform .bar:nth-child(18) { height: 50%; animation-delay: 0.85s; }
+    
