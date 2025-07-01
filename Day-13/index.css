@@ -1,0 +1,43 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    background-color: #ee1c25;
+ }
+.item{
+    color: #ffffff;
+    padding: 10px;
+    font-size: 2rem;
+ }
+ .item1{
+    background-color: red;
+ }
+ .item2{
+    background-color: red;
+ }
+  .item3{
+    background-color: red;
+ }
+  .item4{
+    background-color: red;
+ }
+  .item5{
+    background-color: red;
+ }
+ i{
+    color: #ffffff;
+    font-size: 2rem;
+    display: none;
+ }
+ @media screen and (width<500px){
+    i{
+        display: block;
+    }
+    .item{
+        display: none;
+    }
+
+ }
